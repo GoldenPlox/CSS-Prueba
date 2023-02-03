@@ -36,6 +36,26 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: all 1s ease-in-out;
   }
 
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    width: 90%;
+    margin: 15px;
+    border-radius: 20px;
+    }
+    
+    .imagen{
+      width: 4000px;
+      border-radius: 30px;
+    }
   .sign:hover{
 scale: 1.1;
 transition: all 1s ease-in-out;
